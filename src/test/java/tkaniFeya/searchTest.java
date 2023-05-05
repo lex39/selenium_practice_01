@@ -50,7 +50,7 @@ public class searchTest {
   }
 
   @Test
-  @DisplayName("Негативный, поиск ткани не существующий ткани. Заглушка")
+  @DisplayName("Негативный, поиск не существующий ткани. Заглушка")
   public void negativeSearch() {
     driver.get("https://www.tkani-feya.ru/");
 
